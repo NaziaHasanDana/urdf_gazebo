@@ -1,0 +1,15 @@
+[0.018s] Invoking command in '/home/nazia/ros2_ws3/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/nazia/ros2_ws3/install/my_robot2_description:/home/nazia/ros2_ws3/src/install/my_robot_bringup:/home/nazia/ros2_ws3/src/install/my_robot2_description:/opt/ros/humble /usr/bin/cmake --build /home/nazia/ros2_ws3/build/my_robot_bringup -- -j2 -l2
+[0.064s] Invoked command in '/home/nazia/ros2_ws3/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/nazia/ros2_ws3/install/my_robot2_description:/home/nazia/ros2_ws3/src/install/my_robot_bringup:/home/nazia/ros2_ws3/src/install/my_robot2_description:/opt/ros/humble /usr/bin/cmake --build /home/nazia/ros2_ws3/build/my_robot_bringup -- -j2 -l2
+[0.108s] Invoking command in '/home/nazia/ros2_ws3/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/nazia/ros2_ws3/install/my_robot2_description:/home/nazia/ros2_ws3/src/install/my_robot_bringup:/home/nazia/ros2_ws3/src/install/my_robot2_description:/opt/ros/humble /usr/bin/cmake --install /home/nazia/ros2_ws3/build/my_robot_bringup
+[0.118s] -- Install configuration: ""
+[0.118s] -- Execute custom install script
+[0.120s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[0.120s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.120s]   ament_cmake_symlink_install_directory() can't find
+[0.120s]   '/home/nazia/ros2_ws3/src/my_robot_bringup/rviz'
+[0.121s] Call Stack (most recent call first):
+[0.121s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.121s]   cmake_install.cmake:46 (include)
+[0.121s] 
+[0.121s] [0m
+[0.125s] Invoked command in '/home/nazia/ros2_ws3/build/my_robot_bringup' returned '1': CMAKE_PREFIX_PATH=/home/nazia/ros2_ws3/install/my_robot2_description:/home/nazia/ros2_ws3/src/install/my_robot_bringup:/home/nazia/ros2_ws3/src/install/my_robot2_description:/opt/ros/humble /usr/bin/cmake --install /home/nazia/ros2_ws3/build/my_robot_bringup

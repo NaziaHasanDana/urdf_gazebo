@@ -1,0 +1,56 @@
+[2.621s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/nazia/ros2_ws3']
+[2.628s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/nazia/ros2_ws3'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75f8e2638df0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x75f8e27b1a80>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x75f8e27b1a80>>)
+[8.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.628s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nazia/ros2_ws3'
+[8.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extensions ['ignore', 'ignore_ament_install']
+[8.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'ignore'
+[8.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'ignore_ament_install'
+[8.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extensions ['colcon_pkg']
+[8.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'colcon_pkg'
+[8.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extensions ['colcon_meta']
+[8.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'colcon_meta'
+[8.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extensions ['ros']
+[8.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'ros'
+[8.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extensions ['cmake', 'python']
+[8.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'cmake'
+[8.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'python'
+[8.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extensions ['python_setup_py']
+[8.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3) by extension 'python_setup_py'
+[8.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/build) by extensions ['ignore', 'ignore_ament_install']
+[8.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/build) by extension 'ignore'
+[8.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/build) ignored
+[8.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/install) by extensions ['ignore', 'ignore_ament_install']
+[8.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/install) by extension 'ignore'
+[8.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/install) ignored
+[8.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/log) by extensions ['ignore', 'ignore_ament_install']
+[8.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/log) by extension 'ignore'
+[8.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/log) ignored
+[8.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extensions ['ignore', 'ignore_ament_install']
+[8.886s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'ignore'
+[8.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'ignore_ament_install'
+[8.896s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extensions ['colcon_pkg']
+[8.896s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'colcon_pkg'
+[8.897s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extensions ['colcon_meta']
+[8.897s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'colcon_meta'
+[8.897s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extensions ['ros']
+[8.897s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'ros'
+[8.897s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extensions ['cmake', 'python']
+[8.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'cmake'
+[8.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'python'
+[8.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extensions ['python_setup_py']
+[8.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src) by extension 'python_setup_py'
+[8.918s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extensions ['ignore', 'ignore_ament_install']
+[8.935s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extension 'ignore'
+[8.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extension 'ignore_ament_install'
+[8.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extensions ['colcon_pkg']
+[8.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extension 'colcon_pkg'
+[8.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extensions ['colcon_meta']
+[8.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extension 'colcon_meta'
+[8.936s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extensions ['ros']
+[8.937s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazia/ros2_ws3/src/my_robot2_description) by extension 'ros'
+[9.003s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nazia/ros2_ws3/src/my_robot2_description' with type 'ros.ament_cmake' and name 'my_robot2_description'
+[9.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

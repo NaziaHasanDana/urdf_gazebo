@@ -1,0 +1,28 @@
+[0.101s] Invoking command in '/home/nazia/ros2_ws3/build/my_robot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nazia/ros2_ws3/build/my_robot2_description -- -j2 -l2
+[0.422s] Invoked command in '/home/nazia/ros2_ws3/build/my_robot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nazia/ros2_ws3/build/my_robot2_description -- -j2 -l2
+[0.708s] Invoking command in '/home/nazia/ros2_ws3/build/my_robot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nazia/ros2_ws3/build/my_robot2_description
+[0.770s] -- Install configuration: ""
+[0.773s] -- Execute custom install script
+[0.782s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/urdf/common_properties.xacro
+[0.783s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/urdf/mobile_base.xacro
+[0.783s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/urdf/my_robot.urdf.xacro
+[0.788s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/launch/display.launch.py
+[0.788s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/launch/display.launch.xml
+[0.792s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/rviz/urdf_config.rviz
+[0.792s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/rviz/urdf_config2.rviz
+[0.794s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/ament_index/resource_index/package_run_dependencies/my_robot2_description
+[0.798s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/ament_index/resource_index/parent_prefix_path/my_robot2_description
+[0.800s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/environment/ament_prefix_path.sh
+[0.801s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/environment/ament_prefix_path.dsv
+[0.806s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/environment/path.sh
+[0.807s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/environment/path.dsv
+[0.808s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/local_setup.bash
+[0.811s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/local_setup.sh
+[0.814s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/local_setup.zsh
+[0.816s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/local_setup.dsv
+[0.819s] -- Symlinking: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/package.dsv
+[0.880s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/ament_index/resource_index/packages/my_robot2_description
+[0.885s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/cmake/my_robot2_descriptionConfig.cmake
+[0.885s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/cmake/my_robot2_descriptionConfig-version.cmake
+[0.893s] -- Up-to-date symlink: /home/nazia/ros2_ws3/install/my_robot2_description/share/my_robot2_description/package.xml
+[0.980s] Invoked command in '/home/nazia/ros2_ws3/build/my_robot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nazia/ros2_ws3/build/my_robot2_description
