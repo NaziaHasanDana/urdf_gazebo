@@ -1,0 +1,12 @@
+# Ignore build, install, and log directories
+/build/
+/install/
+/log/
+
+# Ignore IDE-specific files (optional)
+.vscode/
+.idea/
+
+# Ignore Python bytecode files (optional)
+*.pyc
+*.pyo
